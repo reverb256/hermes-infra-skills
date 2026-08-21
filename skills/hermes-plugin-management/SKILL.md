@@ -91,3 +91,7 @@ hermes plugins pack install pack.yaml
 ## Verification
 
 After any change, `hermes plugins pack show pack.yaml` must list every plugin with a pinned ref, and `hermes plugins list` must show each as `enabled`. On a fresh checkout, `hermes plugins pack install pack.yaml` restores the identical set.
+
+## Reference
+
+The full surface map (every Hermes customization, its versioned home, restore path, and the remaining gaps) lives in `hermes-infra-skills/HERMES-MANAGEMENT-MAP.md` — load it before migrating or restoring a host.
