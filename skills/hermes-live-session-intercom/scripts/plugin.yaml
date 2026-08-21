@@ -1,0 +1,14 @@
+name: live-sessions
+label: Live Sessions
+kind: standalone
+version: 1.0.0
+description: >-
+  Local live-session registry + peer messaging. Every interactive Hermes
+  session registers a presence (session id, name, pid, tty, cwd, status) and
+  binds a 0600 unix socket. The `live` tool lists live peers, sends a message
+  into another session (delivered as an out-of-band [LIVE MESSAGE] turn), or
+  updates your own status (idle|busy|working|needs_input|paused). Same
+  machine, same user, same profile only — cross-machine stays A2A, structured
+  tasks stay kanban. This is the plugin-first realization of upstream
+  intercom proposal (NousResearch/hermes-agent#81885).
+required_env: []
